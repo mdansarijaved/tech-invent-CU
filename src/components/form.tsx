@@ -74,6 +74,7 @@ const Form = ({ toggleForm }: { toggleForm: () => void }) => {
                 id="Phone"
                 name="Phone"
                 type="text"
+                maxLength={10}
                 required
                 className="peer rounded-lg h-10 w-full border-2 border-gray-300 text-gray-900 py-3 px-3 focus:outline-none focus:border-gray-300"
                 placeholder="Phone Number"
