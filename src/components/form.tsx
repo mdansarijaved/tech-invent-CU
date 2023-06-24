@@ -8,7 +8,7 @@ const Form = ({ toggleForm }: { toggleForm: () => void }) => {
     <section className=" grid place-content-center bg-transparent w-full h-full justify-center items-center relative z-20">
       <Script type="module" src="/register.js" />
       <button onClick={toggleForm}>
-        <AiFillCloseCircle className="text-white w-11 h-11 absolute top-6 right-6 m-4 cursor-pointer" />
+        <AiFillCloseCircle className="text-white w-11 h-11 absolute top-1 right-1 m-1 lg:top-6 lg:right-6 lg:m-4 cursor-pointer" />
       </button>
 
       <div className="grid place-items-center">
