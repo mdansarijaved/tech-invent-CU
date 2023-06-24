@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* set a variable at root */
+
+:root {
+  --dark-black: #0d0e12;
+  --light-black: #15181e;
+  --light-grey: rgba(227, 229, 232, 0.52);
+  --white: rgba(227, 229, 232, 0.9);
+  --gradient: linear-gradient(
+    90deg,
+    #ff2200 0%,
+    #cd1010 29.43%,
+    #fd105f 68.23%,
+    #f82e2e 100%
+  );
+}
+
+.gradient-bg {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.red-shadow {
+  box-shadow: 2px 2px 10px #ff0000;
+}
+
+.timelineStep {
+  background: var(--gradient);
+}
