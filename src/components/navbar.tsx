@@ -4,11 +4,11 @@ const Navbar = ({ toggleForm }: { toggleForm: () => void }) => {
   return (
     <>
       <Script src="/menu.js" />
-      <header className="bg-dark-black fixed z-50 w-full pt-3  h-[12vmin] flex justify-between items-center px-[8vmin]">
+      <header className="bg-dark-black fixed z-50 w-full py-3 h-16  lg:h-[12vmin] flex justify-between items-center px-[8vmin]">
         <div className="logo flex flex-row justify-center items-center space-x-4">
-          <a href="http://techinvent.cuchd.in/index.php"><img className=" w-32 space-y-12  " src="./Assets/11.png" alt="CU-logo" /></a>
+          <a href="http://techinvent.cuchd.in/index.php"><img className=" w-24 lg:w-32 space-y-12  " src="./Assets/11.png" alt="CU-logo" /></a>
           <img
-            className=" w-28  "
+            className=" w-20 lg:w-28  "
             src="./Assets/Tech_1.png"
             alt="techinvent-logo"
           />
@@ -31,7 +31,7 @@ const Navbar = ({ toggleForm }: { toggleForm: () => void }) => {
         <div className="nav hidden lg:flex flex-row justify-center items-center">
           <a
             href="#about-us"
-            className="text-[2vmin] text-light-grey hover:text-white transition-all no-underline mx-[2vmin] cursor-pointer"
+            className="text-[2vmin] text-light-grey  hover:text-white transition-all no-underline mx-[2vmin] cursor-pointer"
           >
             About Us
           </a>

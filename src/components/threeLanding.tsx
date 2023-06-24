@@ -44,7 +44,7 @@ const ThreeLanding = ({ toggleForm }: { toggleForm: () => void }) =>  {
         ref={vantaRef}
         className="black bg-dark-black text-white w-full h-screen grid place-items-center  relative"
       >
-        <div className="text-center space-y-4">
+        <div className="text-center space-y-4 select-none">
           <p className="uppercase text-2xl font-semibold">Tech Invent 2023</p>
           <h1 className="text-5xl">Become a Campus Ambassador</h1>
           <button className="red-shadow bg-white text-dark-black px-5 py-2 rounded-xl" onClick={toggleForm} >
