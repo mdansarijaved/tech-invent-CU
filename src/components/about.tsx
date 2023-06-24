@@ -83,13 +83,13 @@ const About: FC<aboutProps> = ({}) => {
           ))}
         </div>
       </section>
-      <Image
+      {/* <Image
         src={"/Assets/group.png"}
         className="absolute bottom-0 left-1/2 -translate-x-1/2 hidden lg:block"
         width={500}
         height={500}
         alt="vector"
-      />
+      /> */}
     </section>
   );
 };
